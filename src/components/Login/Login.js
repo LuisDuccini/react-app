@@ -1,5 +1,5 @@
-import './Login.css';
-import React from 'react';
+import './Login.css'
+import React from 'react'
 class NameForm extends React.Component {
     constructor(props) {
       super(props);
