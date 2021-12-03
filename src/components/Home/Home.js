@@ -1,13 +1,13 @@
-import './Home.css';
+import React from 'react'
+import './Home.css'
+import '/Menu.js'
 
-function Home() {
+
+export default function Home() {
     return (
-      <>
-        <div className="Home">
-            <p>Home</p>
-        </div>
-      </>
+     
+      <Menu/>
+      
     );
 }
 
-export default Home;
